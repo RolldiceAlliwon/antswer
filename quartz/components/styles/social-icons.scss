@@ -1,0 +1,33 @@
+.social-icons {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  color: var(--dark);
+  background: var(--lightgray);
+  text-decoration: none;
+  transition: transform 0.1s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.social-link:hover {
+  transform: translateY(-1px);
+  background: var(--highlight);
+  color: var(--secondary);
+}
+
+.social-link .icon {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+}
+
+.left.sidebar .social-icons { margin-top: 0.5rem; }
