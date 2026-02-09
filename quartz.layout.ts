@@ -1,10 +1,12 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import RecentNotesForIndex from "./quartz/components/RecnetNotesForIndex"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
+  afterBody: [
   afterBody: [
     Component.Comments({
       provider: 'giscus',
@@ -13,6 +15,9 @@ export const sharedPageComponents: SharedLayout = {
         repoId: 'R_kgDON9-dEA',
         category: 'Announcements',
         categoryId: 'DIC_kwDON9-dEM4CnOik',
+      }
+    }),
+  ],
   footer: Component.Footer({
     links: {
     },
