@@ -9,10 +9,10 @@ export const sharedPageComponents: SharedLayout = {
     Component.Comments({
       provider: 'giscus',
       options: {
-        repo: 'https://github.com/coolkidsneversleep',
-        repoId: 'R_kgDON9-dEA',
-        category: 'Announcements',
-        categoryId: 'DIC_kwDON9-dEM4CnOik',
+        repo: 'coolkidsneversleep/antswer',
+        repoId: 'R_kgDORJP_YA',
+        category: 'Comments',
+        categoryId: 'DIC_kwDORJP_YM4C2Ejf',
       }
     }),
   ],
