@@ -26,30 +26,19 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
+    Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    RecentNotesForIndex,
   ],
   left: [
     Component.PageTitle(),
     Component.SocialIcons(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
-      ],
-    }),
+    Component.Search(),
+    Component.Darkmode(),
     Component.Explorer(),
-    RecentNotesForIndex,
   ],
   right: [
     Component.Graph(),
@@ -66,15 +55,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.SocialIcons(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-      ],
-    }),
+    Component.Darkmode(),
     Component.Explorer(),
   ],
   right: [],
