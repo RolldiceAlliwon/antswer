@@ -9,7 +9,7 @@ interface SocialLink {
 
 const links: SocialLink[] = [
   {
-    href: "https://coolkidsneversleep.github.io/index.xml",
+    href: "/index.xml",
     label: "RSS",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.5 4A1.5 1.5 0 0 0 3 5.5V7A1.5 1.5 0 0 0 4.5 8.5C12.04 8.5 17.5 13.96 17.5 21.5A1.5 1.5 0 0 0 19 23h1.5A1.5 1.5 0 0 0 22 21.5C22 11.835 14.165 4 4.5 4zm0 7A1.5 1.5 0 0 0 3 12.5V14A1.5 1.5 0 0 0 4.5 15.5 5.5 5.5 0 0 1 10 21a1.5 1.5 0 0 0 1.5 1.5H13A1.5 1.5 0 0 0 14.5 21C14.5 15.701 10.299 11.5 5 11.5zM5 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/></svg>`
   },
