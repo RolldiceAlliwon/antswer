@@ -37,6 +37,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
+    Component.SocialIcons(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
@@ -49,6 +50,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
+    RecentNotesForIndex,
   ],
   right: [
     Component.Graph(),
@@ -62,7 +64,9 @@ export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.PageTitle(),
+    Component.SocialIcons(),
     Component.MobileOnly(Component.Spacer()),
+    Component.Search(),
     Component.Flex({
       components: [
         {
