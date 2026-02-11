@@ -1,3 +1,8 @@
+---
+title:
+tags:
+  - Resume
+---
 ## 🙋‍♂JAEWON KIM
 
 안녕하세요. 3년 차 3D Generalist 김재원입니다.
@@ -10,8 +15,8 @@
 ---
 ### CARRER
 #### 3D Generalist
-- 회사명: 🏛@RabbitWalks·🕐Full-time
-- 재직 기간: Oct. 2022 - Dec. 2025
+- 회사명: 🏛@RabbitWalks
+- 재직 기간: Oct. 2022 - Dec. 2025·🕐Full-time 
 - 📌주요 업무: 실무 제작 파이프 라인을 개선하여 광고, 전시 콘텐츠 제작
 
 ---
@@ -25,7 +30,7 @@ TABLE
   display AS " "
 FROM ""
 WHERE type = "project"
-SORT year DESC
+
 ```
 
 <!--

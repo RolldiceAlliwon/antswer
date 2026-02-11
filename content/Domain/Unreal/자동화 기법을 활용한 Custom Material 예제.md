@@ -7,7 +7,9 @@ tags:
 >[!summary] 
 > Avengers에서 나온 BlackPanther의 이펙트를 레퍼런스 삼아 언리얼 엔진에서 그와 비슷한 이펙트 제작하는 과정을 공유합니다.
 
+> 
 >![](https://velog.velcdn.com/images/coolguykeepgoing/post/2d6e9aac-1844-4345-8f3a-0c4db1fd73ac/image.gif)
+><br>
 >BlackPanther가 전투 중에 적들을 일망타진(?)했던 충격파를 레퍼런스 삼아 메테리얼 자동화 기법에 대해 설명드리겠습니다.
 
 ## 예제 
