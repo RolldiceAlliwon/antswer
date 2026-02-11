@@ -1,13 +1,13 @@
 ---
 title: Sparse Volume Textures
-publish date: 2023-11-13
+created: 2023-11-13
+modified: 2026-02-11
 tags:
   - Unreal
   - VDB
   - VFX
+draft: false
 ---
-2023-11-13
-
 
 ## 예제
 
@@ -30,7 +30,7 @@ tags:
 
 >**Add VDB to Material**
 >
->![[SparesVolumeMaterial.png]]
+>![[CG_SparesVolumeMaterial.png]]
 > >[!info] BlackBody? 
 > >켈빈 온도에 대한 사용자 입력을 받아 기본 색상을 구동하는데 사용할 수 있는 색상과 강도를 반환함.
 
@@ -54,7 +54,7 @@ tags:
 > **Animated VDB**
 >>시퀀서에서 VDB 애니메이션 세팅하는 방법
 >>
->>![[VDB_Animate_Sequencer.png]]
+>>![[CG_VDB_Animate_Sequencer.png]]
 
 
 ---
