@@ -1,10 +1,11 @@
 ---
 title: Virtual Shadow Map
+date: 2024-02-18
 tags:
   - Unreal
   - Lighting
 ---
-2024-02-18
+
 ## Soft shadow - Hardtracing Raytracing vs Virtual Shadow Map
 
 - Lumen 과 Virtual Shadow Map 메소드를 사용할 때 그림자 반음부 (그림자의 부드러운 바깥쪽 가장자리) 의 표현이 제한됩니다.
