@@ -1,8 +1,8 @@
 ---
 tags:
-  - material
   - CrashError
-  - unreal
+  - Unreal
+  - Shader
 date: 2023-04-13
 description: FVertexFactoryInterpolantsVSToDS
 ---
@@ -10,7 +10,7 @@ Unreal Engine 4 프로젝트를 Unreal Engine 5로 업그레이드하는 과정�
 다음과 같은 Shader Compile 오류가 발생하는 경우가 있습니다.
 
 > [!error]
-[SM5] /Engine/Private/HitProxyVertexShader.usf(37,3-34):  error X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
+>[SM5] /Engine/Private/HitProxyVertexShader.usf(37,3-34):  error X3000: unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'
 
 이번 내용은 해당 오류의 발생 배경과 해결방법을 정리했습니다.
 

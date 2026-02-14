@@ -3,6 +3,7 @@ title: Final Gathering
 tags:
   - Unreal
   - Rendering/GI
+date:
 ---
 
 **Final Gathering**

@@ -4,8 +4,9 @@ tags:
   - Unreal
   - Profiling
   - Rendering
+date: 2022-09-15
 ---
-2022-09-15
+
 ## 드로우콜 계산방식
 
 Drawcall은 뷰포트에서 출력되는 것만 해당됩니다.

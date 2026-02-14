@@ -1,11 +1,11 @@
 ---
 title: Material Parameter Collection
+date: 2022-09-18
 tags:
   - Unreal
   - Material
   - Blueprint
 ---
-2022-09-18
 
 ## 특징
 

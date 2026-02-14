@@ -3,8 +3,9 @@ title: Texture Streaming
 tags:
   - Unreal
   - Optimize
+date: 2022-09-15
 ---
-2022-09-15
+
 ## Texture Streaming
 
 - 언리얼에서 사용하는 텍스쳐의 Mipmap수준을 결정하는 과정을 Texture streaming이라고 합니다.

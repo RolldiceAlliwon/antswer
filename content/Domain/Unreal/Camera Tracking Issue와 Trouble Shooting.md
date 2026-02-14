@@ -3,8 +3,8 @@ title: Camera Tracking Issue와 Trouble Shooting
 tags:
   - Unreal
   - Camera
+date: 2022-09-16
 ---
-2022-09-16
 
 Camera Tracking 기능은 카메라가 움직여도 선택한 피사체를 중심으로 자동으로 초점이 맞춰져 카메라 움직임에도 피사체를 선명하게 유지하게 해주는 기능입니다.
 

@@ -3,6 +3,7 @@ title: Data Smith Workflow
 tags:
   - Unreal
   - Workflow
+date: 2024-01-14
 ---
 2024-01-14
 

@@ -3,8 +3,9 @@ title: Distance Fields Material
 tags:
   - Material
   - Unreal
+date: 2022-09-16
 ---
-2022-09-16
+
 
 Distance Fields를 활용해 사용자에게 인터렉티브한 효과를 주는 메테리얼을 만드는 방법에 대해 알아보겠습니다.
 

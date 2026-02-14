@@ -1,7 +1,8 @@
 ---
-title:
+title: About
 tags:
   - Resume
+date: 2026-02-14
 ---
 ## 🙋‍♂JAEWON KIM
 

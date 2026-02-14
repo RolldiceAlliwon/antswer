@@ -3,8 +3,8 @@ title: 한가지 Material로 Variation 만드는 방법
 tags:
   - Unreal
   - Blueprint
+date: 2022-09-16
 ---
-2022-09-16
 
 한가지 Object에 다양한 베리에이션이 필요할 때 인스턴스를 생성하지 않고 [[Drawcall]]을 절약하는 방법에 대해 알아보겠습니다.
 
