@@ -38,7 +38,7 @@ graph LR
     style A fill:#f9e4b7,stroke:#333,stroke-width:2px
     style B fill:#90EE90,stroke:#333,stroke-width:2px
     style C fill:#FFB6C1,stroke:#333,stroke-width:2px
-    style D fill:#4a4a4a,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#90B1C6,stroke:#fff,stroke-width:2px
 ```
 
 
