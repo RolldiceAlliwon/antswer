@@ -3,9 +3,8 @@ date: 2022-03-07
 tags:
   - Texture
   - File
-description: 3D 작업시 접하는 파일확장자 한눈에 보기
+description: 3D 작업에서 자주 마주치는 파일 확장자 한눈에 정리
 ---
-
 ## Image File Format
 
 > [!info] JPG
