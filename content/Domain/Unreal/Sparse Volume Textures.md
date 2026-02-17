@@ -1,7 +1,6 @@
 ---
 title: Sparse Volume Textures
-created: 2023-11-13
-modified: 2026-02-11
+date: 2023-11-13
 tags:
   - Unreal
   - VDB
@@ -9,12 +8,13 @@ tags:
 draft: false
 ---
 
-VDB는 연기, 구름, 불꽃과 같은 볼륨메트릭 데이터를 효율적으로 저장하고 렌더링하는 파일 포맷입니다. 
-
-UE5에선 Sparse Volume Texture(SVT) 시스템을 통해 OpenVDB 파일을 임포트할 수 있으며,  
-5.3 버전 이후 Heterogeneous Volume Actor를 통해 안정적인 실시간 렌더링이 가능해졌습니다.
-
-이 기능을 활용하면 Houdini나 EmberGen 같은 외부 툴에서 제작한 고품질 볼륨 이펙트를 게임이나 시네마틱 영상에 그대로 사용할 수 있습니다.
+> [!summary]
+>VDB는 연기, 구름, 불꽃과 같은 볼륨메트릭 데이터를 효율적으로 저장하고 렌더링하는 파일 포맷입니다. 
+>
+>UE5에선 Sparse Volume Texture(SVT) 시스템을 통해 OpenVDB 파일을 임포트할 수 있으며,  
+>5.3 버전 이후 Heterogeneous Volume Actor를 통해 안정적인 실시간 렌더링이 가능해졌습니다.
+>
+>이 기능을 활용하면 Houdini나 EmberGen 같은 외부 툴에서 제작한 고품질 볼륨 이펙트를 게임이나 시네마틱 영상에 그대로 사용할 수 있습니다.
 
 
 ## 기본 설정 및 워크플로우
