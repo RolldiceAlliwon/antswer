@@ -6,7 +6,7 @@ tags:
 date: 2023-04-13
 description: FVertexFactoryInterpolantsVSToDS
 ---
-Unreal Engine 4 프로젝트를 Unreal Engine 5로 업그레이드하는 과정에서, 
+Unreal Engine 4 프로젝트를 Unreal Engine 5로 업그레이드하는 과정에서,
 다음과 같은 Shader Compile 오류가 발생하는 경우가 있습니다.
 
 > [!error]
@@ -17,6 +17,8 @@ Unreal Engine 4 프로젝트를 Unreal Engine 5로 업그레이드하는 과정�
 ## 오류 메시지의 의미
 
 언리얼 엔진(Unreal Engine)에서 셰이더 컴파일 중 `unrecognized identifier 'FVertexFactoryInterpolantsVSToDS'` 오류는 주로 **테셀레이션(Tessellation)** 또는 **디스플레이스먼트(Displacement)** 머티리얼을 사용할 때 발생하는 고질적인 셰이더 에러로 밝혀져 있습니다.
+
+---
 
 ## 구조적 원인 분석
 
@@ -36,6 +38,8 @@ UE4에서는 머티리얼 안에 **World Displacement**나 **Tessellation Multip
 
 그 결과, **“식별자를 찾을 수 없다”는 셰이더 컴파일 에러로 크래시가 발생하게 됩니다.**
 
+---
+
 ## 해결방법
 
 #### 머티리얼 설정 수정
@@ -49,6 +53,7 @@ UE4에서는 머티리얼 안에 **World Displacement**나 **Tessellation Multip
 셰이더 캐시가 꼬여서 발생할 수 있으므로, 
 프로젝트 폴더 내의 `Intermediate/DerivedDataCache` 폴더를 삭제하고 에디터를 재시작하여 셰이더를 다시 컴파일합니다.
 
+---
 
 ## 결론
 
