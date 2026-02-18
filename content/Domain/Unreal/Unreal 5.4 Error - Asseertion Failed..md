@@ -71,9 +71,9 @@ Unreal은 메시 빌드, 셰이더 컴파일 등에서 CPU에 높은 부하를 �
 >
 >Extreme Tuning Utility 실행 - Performance Core Ration 53x ✅
 > 
-> ![[CG_IntelExtremeTuningUtility.png]]
+> ![[Intel Extreme Tuning Utility.png]]
 
-> [!warning] ♨️ 컴퓨터를 재부팅할 때마다 설정이 초기화되어, 매번 53x로 다시 맞춰야 합니다.
+> [!warning] 컴퓨터를 재부팅할 때마다 설정이 초기화되어, 매번 53x로 다시 맞춰야 합니다.
 
 ---
 
