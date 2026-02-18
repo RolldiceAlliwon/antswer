@@ -6,17 +6,17 @@ tags:
   - Material
   - Blueprint
 ---
-
 ## 특징
 
-- ⚠ Material Parameter Collection 방식으로 쓰이는 매개변수는 부모 Material의 값을 변경하기 때문에 블루프린트에서 매개변수 값을 바꿨을 때 자식 Material Instance에도 공통적으로 영향을 끼치는 단점이 있으니 주의해야합니다.
-- 💰 공유하는데 필요한 비용이 비싼 편이기 때문에 활성화 유무에 대한 Switch(분기점)를 만들어줘야 합니다.
+⚠ Material Parameter Collection 방식으로 쓰이는 매개변수는 부모 Material의 값을 변경하기 때문에 블루프린트에서 매개변수 값을 바꿨을 때 자식 Material Instance에도 공통적으로 영향을 끼치는 단점이 있으니 주의해야합니다.
+
+💰 공유하는데 필요한 비용이 비싼 편이기 때문에 활성화 유무에 대한 Switch(분기점)를 만들어줘야 합니다.
 
 ---
 
 ## 예제
 
-먼저 간략한 설명을 위해 `Material Parameter Collection = MPC`로 명명하겠습니다.
+> [!note] 간략한 설명을 위해 `Material Parameter Collection = MPC`로 명명하겠습니다.
 
 #### 메테리얼 구성
 

@@ -1,9 +1,9 @@
 ---
+date: 2023-04-13
 tags:
   - CrashError
   - Unreal
   - Shader
-date: 2023-04-13
 description: FVertexFactoryInterpolantsVSToDS
 ---
 Unreal Engine 4 프로젝트를 Unreal Engine 5로 업그레이드하는 과정에서,
@@ -53,7 +53,6 @@ UE4에서는 머티리얼 안에 **World Displacement**나 **Tessellation Multip
 셰이더 캐시가 꼬여서 발생할 수 있으므로, 
 프로젝트 폴더 내의 `Intermediate/DerivedDataCache` 폴더를 삭제하고 에디터를 재시작하여 셰이더를 다시 컴파일합니다.
 
----
 
 ## 결론
 

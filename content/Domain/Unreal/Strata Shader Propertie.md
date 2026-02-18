@@ -5,9 +5,8 @@ tags:
   - Material
   - Shader
 date: 2024-03-17
+draft: true
 ---
-
-
 >[!summary] 특징
 >**BSDF Shader**는 Shader와 Shader 간 레이어링이 가능해 물리적인 재질현상 표현이 가능해짐.
     

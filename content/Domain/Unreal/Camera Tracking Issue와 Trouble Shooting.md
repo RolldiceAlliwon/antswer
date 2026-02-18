@@ -1,12 +1,15 @@
 ---
 title: Camera Tracking Issue와 Trouble Shooting
+date: 2022-09-16
 tags:
   - Unreal
   - Camera
-date: 2022-09-16
 ---
 
-Camera Tracking 기능은 카메라가 움직여도 선택한 피사체를 중심으로 자동으로 초점이 맞춰져 카메라 움직임에도 피사체를 선명하게 유지하게 해주는 기능입니다.
+Tracking Focus는 지정된 액터를 자동으로 추적하지만, 실제로는 해당 액터의 Pivot 좌표를 참조합니다.  
+따라서 원하는 부위를 정확히 포커싱하려면 추적용 기준점을 별도로 생성해야 합니다.
+
+이 글에서는 소켓 기반 Proxy 액터를 활용한 포커스 트래킹 설정 방법을 단계별로 설명합니다.
 
 ## Actor To Tracking
 

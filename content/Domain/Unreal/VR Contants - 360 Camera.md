@@ -6,8 +6,6 @@ tags:
   - plugin
 date: 2022-09-16
 ---
-2022-09-16
-
 ## 예제
 
 > 에픽스토어에서 'Camera360 플러그인'을 다운 받습니다.
@@ -36,6 +34,7 @@ date: 2022-09-16
 > - ideo- VR video- Frame Layout 프로젝션 타입에 맞게 설정
 > - Use maximum render quality 활성화 ✅
 
+---
 ## 360 Camera 기능
 
 #### Projection Mode
@@ -45,8 +44,10 @@ date: 2022-09-16
 | 360_stereo(streo panoramic) | Panoramic capture 활성화 | 5760x5760       |
 | Mono type                   |                       | 5760x2880(5.2k) |
 
-- 출력해상도는 렌더링 하기 전 무비렌더큐에서 설정합니다.
-    ex) Movie render queue> File Output Resoultion 5760x2880(5.2k)
+출력해상도는 렌더링 하기 전 무비렌더큐에서 설정합니다.
+
+Ex) Movie Render Queue → File Output Resoultion 5760x2880(5.2k)
 
 #### Stereo Panotamic System
-- `Capture Speed`는 2K 이상의 이미지를 캡처하는 경우 보통 50~ 70 권장합니다.
+
+`Capture Speed`는 2K 이상의 이미지를 캡처하는 경우 보통 50~ 70 권장합니다.

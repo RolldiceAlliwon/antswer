@@ -1,5 +1,6 @@
 ---
 title: 자동화 기법을 활용한 Custom Material 예제
+date: 2021-12-01
 tags:
   - Unreal
   - Material
@@ -40,7 +41,6 @@ tags:
 #### Energy Field
 
 ![](https://velog.velcdn.com/images/coolguykeepgoing/post/079e6ca7-5c56-4f27-8f57-0ffe88676b36/image.png)  
-
 자기장을 감싸는 에너지 흐름의 불규칙함을 표현하는 부분입니다. 
 Distord 변수를 조절해 원본 텍스쳐의 형태를 얼마나 왜곡하여 표현할 것인지 조정할 수 있습니다.
 
@@ -49,11 +49,14 @@ Distord 변수를 조절해 원본 텍스쳐의 형태를 얼마나 왜곡하여
 ![](https://velog.velcdn.com/images/coolguykeepgoing/post/0b687825-22f8-4f6b-9d74-2a9ac4e0ce0a/image.png)  
 이 부분은 텍스처의 반복되는 패턴이 눈에 띄지않게 반자동화 기법을 사용한 부분입니다.
 
-어떻게 작동하는지 단순하게 살펴보면 다음과 같습니다.  
+어떻게 작동하는지 단순하게 살펴보면 다음과 같습니다. 
 ![](https://velog.velcdn.com/images/coolguykeepgoing/post/9065690c-e0e3-4a5e-a9ea-1649b58a5114/image.png)
 
 특징을 짚어보자면
-- ✅ 이 작업을 제대로 하려면 Seamless Texture^[여러 번 타일링해도 그 경계면이 눈에 띄지 않고 자연스러운 Texture]를 사용해야합니다.
-- ✅ 형상이 비슷한 텍스쳐를 사용해야 합니다
-- ✅ 다양한 Noise Texture를 활용해야합니다. 
+
+✅ 이 작업을 제대로 하려면 Seamless Texture^[여러 번 타일링해도 그 경계면이 눈에 띄지 않고 자연스러운 Texture]를 사용해야합니다.
+
+✅ 형상이 비슷한 텍스쳐를 사용해야 합니다
+
+✅ 다양한 Noise Texture를 활용해야합니다. 
     - 같은 형상을 가진 Noise 텍스쳐를 자주 사용한다면 눈이 패턴을 인식하는 결과를 낳기 때문에 지양해야합니다.

@@ -1,30 +1,29 @@
 ---
 title: Chaos Vehicle Contents Pack
+date: 2023-11-26
 tags:
   - Unreal
-date: 2023-11-26
 ---
-2023-11-26
 
 >[!summary]
 Vehicle Contents Pack를 활용해 게임에 바로 사용할 수 있는 Custom 차량을 만드는 과정을 공유합니다.
 
 ## Project Setting
 
-- 프로젝트 세팅 - 엔진 - 피직스 - Tick physics async ✅ 
+⚙️ Project Settings → Engine → Physics → Tick Physics Async ✅ 
 
 ## 예제
 
 > 시작 템플릿에서 '비히클' 콘텐츠 팩을 선택해서 프로젝트에 추가합니다.
-    
+
 > 콘텐츠 브라우저에서 '비히클 - SportCar - SKM_SportsCar'를 찾아 우클릭하여 에셋 액션- FBX로 익스포트합니다.
-    
+
 > Maya로 FBX 파일을 임포트합니다.
-    
+
 > 바퀴에 부착할 스켈레톤(FL, FR, BL, BR)은 제외하고 메시와 스켈레톤을 삭제합니다.
-    
+
 > 가지고 있는 자동차 FBX파일을 임포트합니다. 앞머리 방향은 SKM_SportCar와 똑같이 90도 변경해줍니다.
-    
+
 > Skining 작업을 진행합니다.
 >
 >![](https://velog.velcdn.com/images/coolguykeepgoing/post/5a6833ab-f1d6-4e5f-a34b-82a6165210df/image.png)  

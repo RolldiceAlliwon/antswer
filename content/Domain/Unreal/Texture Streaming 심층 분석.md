@@ -2,10 +2,9 @@
 title: Texture Streaming
 tags:
   - Unreal
-  - Optimize
+  - Optimization
 date: 2022-09-15
 ---
-
 ## Texture Streaming
 
 - 언리얼에서 사용하는 텍스쳐의 Mipmap수준을 결정하는 과정을 Texture streaming이라고 합니다.
@@ -41,7 +40,7 @@ date: 2022-09-15
 
 ---
 
-#### Texture steaming pool 확장하는 방법
+#### Texture Steaming Pool 확장하는 방법
 
 뷰포트에서 렌더링되는 장면 안에서 Streaming Pool에 비해 고해상도 텍스처들이 넘쳐날 때 뷰포트에 경고가 표시됩니다.
 

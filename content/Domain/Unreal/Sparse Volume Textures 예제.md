@@ -4,7 +4,6 @@ date: 2023-11-13
 tags:
   - Unreal
   - VDB
-  - VFX
 draft: false
 ---
 
@@ -15,7 +14,6 @@ draft: false
 >5.3 버전 이후 Heterogeneous Volume Actor를 통해 안정적인 실시간 렌더링이 가능해졌습니다.
 >
 >이 기능을 활용하면 Houdini나 EmberGen 같은 외부 툴에서 제작한 고품질 볼륨 이펙트를 게임이나 시네마틱 영상에 그대로 사용할 수 있습니다.
-
 
 ## 기본 설정 및 워크플로우
 
@@ -43,7 +41,7 @@ VDB를 렌더링하기 위해서는 특별한 설정이 필요한 머티리얼�
         - 불꽃/에너지 계열 - Additive
         - 연기나 구름 계열 - AlphaComposite
 
-![SVT_Material.png](app://8aa7b0a2f59527e624dc67ddfc8ba17724e3/C:/Users/user/Documents/CG/Migration/Inbox/Image/SVT_Material.png?1719747627011)
+![[VDB Master Material.png]]
 
 <br>
 
@@ -51,14 +49,8 @@ VDB를 렌더링하기 위해서는 특별한 설정이 필요한 머티리얼�
 
 임포트한 Sparse Volume Texture 에셋을 머티리얼 그래프로 가져옵니다
 
-%%
-- BlackBody 노드를 사용하면 온도 기반의 색상 표현이 가능합니다.
-    - BlackBody는 켈빈 온도 값을 입력받아 물리적으로 정확한 색상과 강도를 반환합니다
-    - 불이나 용암 같은 고온 이펙트에 특히 유용합니다.
-
-> [!warning]
-> BlackBody 노드는 VDB에 Temperature 필드가 포함되어 있을 때만 정상적으로 작동합니다. Temperature 데이터가 없는 경우 Emissive를 직접 구성해야 합니다.
-%%
+ ![[Spares Volume Material.png]]
+ 
 <br>
 
 #### 5단계. 머티리얼 인스턴스 생성
@@ -90,8 +82,7 @@ VDB를 렌더링하기 위해서는 특별한 설정이 필요한 머티리얼�
 
 - 시퀀서를 열고 Heterogeneous Volume 액터를 트랙에 추가하고 다음 순서에 따라 설정합니다.
 
-![Pasted image 20250408181408.png](app://8aa7b0a2f59527e624dc67ddfc8ba17724e3/C:/Users/user/Documents/CG/Migration/Inbox/Image/Pasted%20image%2020250408181408.png?1744103648588)
-
+![[VDB Animate Sequencer.png]]
 프레임 레이트와 타이밍을 조정하여 원하는 속도로 애니메이션을 재생할 수 있습니다.
 
 ---
@@ -153,7 +144,6 @@ VDB를 렌더링하기 위해서는 특별한 설정이 필요한 머티리얼�
 >**Comment**: Movie Render Queue에는 영향을 미치지 않는 것 같습니다. 
 
 ---
-
 **참고자료**
 - [5.3 이종 볼륨 렌더링 팁과 요령](https://forums.unrealengine.com/t/5-3-heterogeneous-volume-rendering-tips-and-tricks/1291002)
 - [Epic Clouds for Unreal Engine 5.3](https://www.youtube.com/watch?v=AHK_mbTvoyc&t=615s)

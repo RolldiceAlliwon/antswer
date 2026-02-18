@@ -14,7 +14,7 @@ Unreal Engine은 이러한 효과를 구현하기 위해 프로젝트에 따라 
 
 ## Light Shaft (God Ray)
 
-![[Light shaft.png]]
+![[Light Shaft.png]]
 
 Light Shaft는 하늘에서 내리는 빛줄기를 표현하는 시각 효과입니다. 
 오브젝트가 빛을 가리는 부분의 차폐를 표현하기 때문에 'Light Blocking'이라고도 불립니다.
