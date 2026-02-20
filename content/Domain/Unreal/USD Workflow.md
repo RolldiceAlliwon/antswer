@@ -8,8 +8,7 @@ tags:
 >[!summary] 
 >Blender에서 Unreal Engine으로 3D 데이터를 전송하는 두 가지 주요 워크플로우를 다룹니다. USD 포맷을 사용한 기본 씬 전송 방법과 Geometry Node로 생성한 프로시저럴 지오메트리를 전송하는 방법을 설명합니다. 
 
-## USD Export 설정 
-([[Data Smith Workflow|Data Smith]] 대체)
+## USD Workflow
 
 USD(Universal Scene Description)는 Pixar에서 개발한 포맷으로, 복잡한 씬 구조와 머티리얼 정보를 유지하면서 다른 Tool로 데이터를 전송할 수 있습니다.
 
@@ -38,8 +37,8 @@ USD(Universal Scene Description)는 Pixar에서 개발한 포맷으로, 복잡�
 
 Blender와 Unreal Engine의 노출값을 맞춰 시각적 일관성을 유지합니다.
 
-- ⚙️ **Blender** : Color Management → Look → High Contrast
-- ⚙️ **Unreal**: Post Process Volume → Exposure → Metering Mode → Manual
+⚙️ **Blender** : Color Management → Look → High Contrast
+⚙️ **Unreal**: Post Process Volume → Exposure → Metering Mode → Manual
 
 ---
 ## Geometry Node를 Unreal로 전송하기
