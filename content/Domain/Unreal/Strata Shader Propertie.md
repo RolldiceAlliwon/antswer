@@ -9,7 +9,7 @@ draft: false
 ---
 
 > [!summary] 
-> 언리얼 엔진 5.1에서 도입된 Strata는 기존 [[Physically Base Rendering|PBR]] (Material Shading Model)을 확장한 차세대 머티리얼 시스템입니다. 
+> 언리얼 엔진 5.1에서 도입된 Strata는 기존 PBR (Material Shading Model)을 확장한 차세대 머티리얼 시스템입니다. 
 >기존의 단일 레이어 셰이딩 모델과 달리, Substrate는 **물리적으로 일관된 레이어 구조**를 통해 실제 세계의 복잡한 재질을 더 정확하게 표현할 수 있도록 설계되었습니다.
 >이 문서에서는 Strata의 핵심 개념과 주요 파라미터에 대해 다룹니다.
 
@@ -63,7 +63,7 @@ Substrate의 기본 단위는 **Substrate Slab BSDF**입니다.
 #### F0 (Fresnel at 0 Degrees)
 
 표면을 정면에서 볼 때의 반사율을 정의합니다.
-이는 [[IOR]](Index of Refraction, 굴절률)과 직접적으로 연결됩니다.
+이는 IOR(Index of Refraction, 굴절률)과 직접적으로 연결됩니다.
 <br>
 일반적인 값
 - 플라스틱/유리: 0.04 (4%)
