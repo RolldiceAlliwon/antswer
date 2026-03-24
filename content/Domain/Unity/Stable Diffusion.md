@@ -2,6 +2,7 @@
 date created: 2026-03-21
 tags:
   - AI
+draft: true
 ---
 
 Stable Diffusion 이란?
