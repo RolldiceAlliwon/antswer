@@ -276,3 +276,7 @@ Unreal Engine 5에서 OSC 신호를 받아 게임 내 오브젝트를 움직이�
     - `System Template`에 생성한 `NS_Trail`을 선택한다.
     - 생성된 Niagara 시스템을 `NS_Trail`이라는 변수로 저장한다.
     - 컴파일 및 저장한다.
+
+---
+**관련자료**
+- [Unreal Engine 5 [Course] OSC Creative Coding with ZigSim](https://www.youtube.com/watch?v=XF0YffKU7Co)
