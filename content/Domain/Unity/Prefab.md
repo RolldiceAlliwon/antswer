@@ -58,3 +58,7 @@ OnTriggerEnter는 관련된 객체 중 적어도 하나에 **Rigidbody 컴포�
 **Instantiate()**
 
 런타임에 새로운 GameObject 또는 객체의 복사본을 생성하며, 모든 컴포넌트 속성을 포함합니다.
+
+---
+**참고자료**
+- 유니티 튜토리얼
